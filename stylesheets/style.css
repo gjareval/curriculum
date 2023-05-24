@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Adamina&family=Domine&family=Rasa:wght@300&display=swap');&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Adamina&family=Domine&family=Rasa:wght@300&display=swap');
 
 * {
-font-family:Domine;
+font-family: 'Domine', serif;
 }
 
 h1,h4 {
-font-family: Adamina;
+font-family: 'Adamina', serif;
 }
 
 h2 {
-font-family: Rasa;
+font-family: 'Rasa', serif;
 }
 
