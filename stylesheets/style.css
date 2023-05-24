@@ -1,4 +1,12 @@
+* {
+font-family: Arial, sans-serif;
+}
+
+h2.clase1 {
+font-family: Times New Roman, serif;
+}
+
 h1 {
-color: red;
+font-family: Georgia, serif;
 }
 
