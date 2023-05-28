@@ -1,27 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Adamina&family=Domine&family=Rasa:wght@300&display=swap');
 
 * {
-font-family: 'Domine', serif;
+  font-family: 'Domine', serif;
+  text-align: center;
 }
 
 h1,h4 {
-font-family: 'Adamina', serif;
+  font-family: 'Adamina', serif;
 }
 
 h2 {
-font-family: 'Rasa', serif;
+  font-family: 'Rasa', serif;
 }
 
 a {
   text-decoration: none;
-  font-size: 1.2rem;
 }
 
-#Education > image  {
+#logoespol  {
   border: 1pt solid black;
-  padding: 1.1rem;
-  margin-top: 10px;
+  padding: 1.5rem;
+  margin-top: 5px;
   margin-left: 25%;
   margin-right: 25%;
   margin-bottom: 2px;
+}
+
+section.impar {
+  background-color: #d8eefe;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+section.par {
+  background-color: #bde0ee;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+header {
+  background-color: #bde0ee;
+  margin-left: 25%;
+  margin-right: 25%;
 }

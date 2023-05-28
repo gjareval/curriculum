@@ -13,25 +13,25 @@
     </header>
     
     <main>
-      <section>
+      <section class="impar">
         <h2>Personal Information</h2>
-        <p>Name: Guillermo Arévalo</p>
-        <p>Email: gjareval@espol.edu.ec</p>
-        <p>Phone: 0984468881</p>
+        <p><b>Name:</b> Guillermo Arévalo</p>
+        <p><b>Email:</b> gjareval@espol.edu.ec</p>
+        <p><b>Phone:</b> 0984468881</p>
         <h4>Video about me</h4>
-        <iframe width="400" height="250" src="https://www.youtube.com/embed/wDchsz8nmbo" title="1 Minute Sample Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="350" height="200" src="https://www.youtube.com/embed/wDchsz8nmbo" title="1 Minute Sample Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </section>
       
-      <section id="Education">
+      <section class="par">
         <h2>Education</h2>
         <p>Escuela Superior Politécnica del Litoral</p>
+        <img id="logoespol" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/ESPOL_-_Logo_001.svg/300px-ESPOL_-_Logo_001.svg.png" width="150" height="150" alt="logoEspol">
         <p>Engineering in Computer Science</p>
         <p>2020-2025</p>
-        <image src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/ESPOL_-_Logo_BN_002.svg/1200px-ESPOL_-_Logo_BN_002.svg.png" width="150" height="150" alt="logoEspol">
-        <br><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15948.062301086808!2d-79.96108342482295!3d-2.147723136316879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sec!4v1684769797972!5m2!1ses!2sec" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <br><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15948.062301086808!2d-79.96108342482295!3d-2.147723136316879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sec!4v1684769797972!5m2!1ses!2sec" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </section>
       
-      <section>
+      <section class="impar">
         <h2>Work Experience</h2>
         <ul>
         <li><p>Software Systems Assistant at CIDIS</p>
@@ -41,26 +41,28 @@
         </ul>
       </section>
         
-      <section>
+      <section class="par">
         <h2>Projects</h2>
         <a href="https://gjareval.github.io/gjareval/">My projects</a>
       </section>
-      <section>
-        
+
+      <section class="impar"> 
         <h2>Skills</h2>
-        <p>Programming Languages: Python, Java, C</p>
-        <p>Databases: MySQL</p>
+        <p><b>Programming Languages:</b> Python, Java, C</p>
+        <p><b>Databases:</b> MySQL</p>
       </section>
         
-      <section>
+      <section class="par">
         <h2>Information and suggestions</h2>
         <form>
+          <b>
           <label for="nombre">Nombre:</label> <input type="text" id="nombre" name="nombre" required="required" />
           <br><label for="apellido">Apellido:</label> <input type="text" id="apellido" name="apellido" required="required" />
           <br><label for="correo">Correo electrónico:</label> <input type="email" id="correo" name="correo" required="required" />
           <br><label for="telefono">Número de teléfono:</label> <input type="tel" id="telefono" name="telefono" />
           <br><br><label for="mensaje" /> <textarea id="mensaje" name="mensaje" rows="10" cols="50" required="required" placeholder="Escriba su mensaje o sugerencia"></textarea>
           <br><button type="submit" name="enviar">Enviar</button>
+          </b>
         </form>  
       </section>
     </main>
