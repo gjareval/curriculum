@@ -1,5 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Adamina&family=Domine&family=Rasa:wght@300&display=swap');
 
+body {
+  background-color: #d8eefe;
+  margin: 0px;
+}
+main{
+  display: flex;
+  row-gap: 0.5rem;
+  column-gap: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin: 8px;
+}
+
+#personalInformation{
+  width: 100%;
+}
+
+#education {
+  width: 100%;
+}
+
+#workExperience {
+  width: 49.5%;
+}
+
+#projects {
+  width: 49.5%;
+}
+
+#skills {
+  width: 49.5%;
+}
+
+#languages {
+  width: 49.5%;
+}
+
+#contactMe{
+  width: 100%;
+}
+
 * {
   font-family: 'Domine', serif;
   text-align: center;
@@ -13,33 +56,44 @@ h2 {
   font-family: 'Rasa', serif;
 }
 
-a {
-  text-decoration: none;
-}
 
-#logoespol  {
-  border: 1pt solid black;
-  padding: 1.5rem;
-  margin-top: 5px;
-  margin-left: 25%;
-  margin-right: 25%;
-  margin-bottom: 2px;
-}
 
-section.impar {
-  background-color: #d8eefe;
-  margin-left: 25%;
-  margin-right: 25%;
-}
-
-section.par {
+section{
   background-color: #bde0ee;
-  margin-left: 25%;
-  margin-right: 25%;
+  border-radius: 10px;
 }
 
 header {
   background-color: #bde0ee;
-  margin-left: 25%;
-  margin-right: 25%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; 
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+
 }
+
+header .nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  padding: 1rem 1rem;
+
+}
+
+header .nav a{
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+main #personalInformation, main #education {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  padding: 1rem 1rem;
+}
+
+
