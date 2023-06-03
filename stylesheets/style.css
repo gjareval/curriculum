@@ -24,19 +24,19 @@ main{
 }
 
 #workExperience {
-  width: 49.5%;
+  width: 32.9%;
 }
 
 #projects {
-  width: 49.5%;
+  width: 32.9%;
 }
 
 #skills {
-  width: 49.5%;
+  width: 100%;
 }
 
 #languages {
-  width: 49.5%;
+  width: 32.9%;
 }
 
 #contactMe{
@@ -94,6 +94,99 @@ main #personalInformation, main #education {
   justify-content: space-evenly;
   position: relative;
   padding: 1rem 1rem;
+}
+
+main #skills{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  padding: 1rem 1rem;
+}
+
+main #skills #skillsTitle {
+  width: 100%;
+}
+
+main #skills #languages {
+  width: 30.5%;
+}
+
+main #skills #database {
+  width: 30.5%;
+}
+
+main #skills #design {
+  width: 30.5%;
+}
+
+main #skills #languages {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  padding: 1rem 1rem;
+}
+
+main #skills #languages #text{
+  width: 100%;
+}
+
+main #skills #languages #images{
+  width: 100%;
+}
+
+main #skills #database {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  padding: 1rem 1rem;
+}
+
+main #skills #database #text{
+  width: 100%;
+}
+
+main #skills #database #images{
+  width: 100%;
+}
+
+main #skills #design {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  padding: 1rem 1rem;
+}
+
+main #skills #design #text{
+  width: 100%;
+}
+
+main #skills #design #images{
+  width: 100%;
+}
+
+main #skills #database img{
+  border-radius: 50%;
+  margin: 1%;
+
+}
+
+main #skills #languages img{
+  border-radius: 50%;
+  margin: 1%;
+}
+
+main #skills #design img{
+  border-radius: 50%;
+  margin: 1%;
 }
 
 
