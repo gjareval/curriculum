@@ -1,4 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Adamina&family=Domine&family=Rasa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai&family=Montserrat:wght@600&display=swap');
+
+* {
+  font-family: 'Hind Madurai', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h1,h4 {
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
 
 body {
   background-color: #d8eefe;
@@ -15,6 +33,39 @@ main{
   margin: 8px;
 }
 
+section{
+  background-color: #bde0ee;
+  border-radius: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+header {
+  background-color: #bde0ee;
+  position: sticky;
+  margin-left: 10%;
+  margin-right: 10%;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; 
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+iframe {
+  border-radius: 5%;
+}
+
 #personalInformation{
   width: 100%;
 }
@@ -24,11 +75,15 @@ main{
 }
 
 #workExperience {
-  width: 32.9%;
+  width: 26%;
+  margin-left: 10%;
+  margin-right: 0%;
 }
 
 #projects {
-  width: 32.9%;
+  width: 26%;
+  margin-left: -19.5%;
+  margin-right: 0%;
 }
 
 #skills {
@@ -36,42 +91,18 @@ main{
 }
 
 #languages {
-  width: 32.9%;
+  width: 26%;
+  margin-left: -19.5%;
+  margin-right: 10%;
 }
 
-#contactMe{
-  width: 100%;
+#contactMe {
+  width: 53%;
+  margin-right: -10%;
 }
 
-* {
-  font-family: 'Domine', serif;
-  text-align: center;
-}
-
-h1,h4 {
-  font-family: 'Adamina', serif;
-}
-
-h2 {
-  font-family: 'Rasa', serif;
-}
-
-
-
-section{
-  background-color: #bde0ee;
-  border-radius: 10px;
-}
-
-header {
-  background-color: #bde0ee;
-  position: sticky;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1000; 
-  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
-
+#socialMedias {
+  width: 26%;
 }
 
 header .nav{
@@ -79,7 +110,6 @@ header .nav{
   align-items: center;
   justify-content: space-between;
   position: relative;
-  padding: 1rem 1rem;
 
 }
 
@@ -111,15 +141,17 @@ main #skills #skillsTitle {
 }
 
 main #skills #languages {
-  width: 30.5%;
+  width: 25%;
+  margin-left: 5%;
+  margin-right: -6%;
 }
 
 main #skills #database {
-  width: 30.5%;
+  width: 25%;
 }
 
 main #skills #design {
-  width: 30.5%;
+  width: 25%;
 }
 
 main #skills #languages {
@@ -189,4 +221,22 @@ main #skills #design img{
   margin: 1%;
 }
 
+form div{
+  display: flex;
+  flex-direction: column;
+  width: 49.5%; 
+  align-items: self-end;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
 
+form div p {
+  margin-bottom: 0.2%;
+}
+
+#mensajeArea   {
+  align-items: center;
+  margin-right: 10% ;
+  margin-left: -5%;
+}
