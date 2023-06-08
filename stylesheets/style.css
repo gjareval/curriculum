@@ -6,6 +6,7 @@
 }
 
 h1 {
+  color: whitesmoke;
   font-size: 2rem;
 }
 
@@ -41,7 +42,7 @@ section{
 }
 
 header {
-  background-color: #bde0ee;
+  background-color: #03abee;
   position: sticky;
   margin-left: 10%;
   margin-right: 10%;
@@ -59,7 +60,12 @@ form {
 }
 
 a {
+  color: black;
   text-decoration: none;
+}
+
+header a {
+  color: whitesmoke;
 }
 
 iframe {
@@ -102,10 +108,18 @@ iframe {
 }
 
 #socialMedias {
+  display: flex;
+  flex-wrap: wrap;
   width: 26%;
+  justify-content: center;
+}
+
+#socialMedias img {
+  padding: 5%;
 }
 
 header .nav{
+  background-color: #03abee;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -221,6 +235,7 @@ main #skills #design img{
   margin: 1%;
 }
 
+
 form div{
   display: flex;
   flex-direction: column;
@@ -239,4 +254,19 @@ form div p {
   align-items: center;
   margin-right: 10% ;
   margin-left: -5%;
+}
+
+footer {
+  margin-left: 10.5%;
+  margin-right: 10.5%;
+}
+
+footer a, footer p {
+  color: whitesmoke;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.nav {
+  background-color: #03abee;
 }
